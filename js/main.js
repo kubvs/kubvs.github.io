@@ -107,7 +107,15 @@
 			'Rentgen': {
                 'Informacja': 'Sprawdzamy czy doszło do złamania.',
                 'Kwota': 7500,
-            },
+			},
+			'Elektrokardiografia': {
+				'Informacja': 'Rozpoznajemy choroby serca.',
+				'Kwota': 7500,
+			},
+			'Ultrasonografia': {
+				'Informacja': 'Pozwala na uzyskanie obrazu przekroju badanego obiektu.',
+				'Kwota': 7500,
+			},
 		}
     };
 	
