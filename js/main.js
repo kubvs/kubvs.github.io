@@ -244,7 +244,7 @@
 				alertify.success("Pomyślnie uzyskano fakturę");
 				setTimeout(function(){
 					alertify.alert("<b>Faktura:</b><br>"+wyrok+"<br><br><b>Kwota Faktury:</b><br> "+Kwota+"<br>" ).setting({
-						'title': "<b><font size='4'>OJ TAK BYCZKU FREE KASA</font></b>",
+						'title': "<b><font size='4'>FAKTURA</font></b>",
 						'movable': false,
 					}).show();
 				},700);

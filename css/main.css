@@ -86,12 +86,12 @@ input[type="text"] {
 	font-size: 18px;
 	font-weight: bold;
 	height: 40px;
-	width: 80px;
+	width: 80px;	
 	position: -webkit-sticky;
 	position: sticky;
 	background-color: rgba(50, 50, 50, 0.70);
 	border: none;
-	border-top: solid 3px #FFA500;
+	border-top: solid 3px #00d0ff;
 	border-radius: 4px;
 	top: 22%;
 	left: 77%;
