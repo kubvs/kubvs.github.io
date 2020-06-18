@@ -4,14 +4,32 @@
 		'Podstawowe': {
 			'Opatrunek': {
 				'Informacja': 'Ochrania ranę lub skaleczenie przed środowiskiem zewnętrznym i zapobiegająca dalszemu zakażeniu.',
+				'Kwota': 500,
+			},
+			'Szwy': {
+				'Informacja': 'Zszycie rany - Polega na zbliżaniu do siebie brzegów skóry w celu ułatwienia szybszego gojenia rany.',
 				'Kwota': 750,
 			},
-			'Zszycie Rany': {
-				'Informacja': 'Polega na zbliżaniu do siebie brzegów skóry w celu ułatwienia szybszego gojenia rany.',
+			'Gips': {
+				'Informacja': 'Zakładamy pacjentowi gips, gdy doszło do złamania kończyny.',
 				'Kwota': 1000,
 			},
-			'Łamanie Regulaminu Szpitala': {
-				'Informacja': 'TAKIE RZECZY WYSTAWIAJĄ TYLKO OSOBY Z ZARZĄDU!',
+			'Orteza': {
+				'Informacja': 'Jego głównym zadaniem jest unieruchomienie stawów kończyn, które uległy urazom np. skręcenia, zwichnięcia lub zerwania więzadeł.',
+				'Kwota': 1000,
+			},
+			'Kołnierz Ortopedyczny': {
+				'Informacja': 'Stabilizuje szyje. W razie podejrzenia urazu, stosowany jest jako podstawowy środek w celu zapobieżenia dalszym urazom kręgosłupa szyjnego i rdzenia kręgowego.',
+				'Kwota': 1000,
+			},
+		},
+		'Operacje': {
+			'Operacja Prosta': {
+				'Informacja': 'Np. operacja złamanej nogi, wyciągnięcie kuli z rany postrzałowej w bark.',
+				'Kwota': 5000,
+			},
+			'Operacja Złożona': {
+				'Informacja': 'Np. operacja wycięcia guza mózgu, wyciągniecie pięciu kul z rany.',
 				'Kwota': 10000,
 			},
 		},
@@ -24,6 +42,10 @@
                 'Informacja': 'Środek na niskie akcje serca.',
 				'Kwota': 2000,
 			},
+			'Maseczka z Narkozą': {
+                'Informacja': 'Maseczka z płynem usypiającym, odurzającym, znieczulającym.',
+                'Kwota': 2000,
+            },
 			'Ketonal': {
                 'Informacja': 'Jedna z mocniejszych substancji przeciw bólowych.',
 				'Kwota': 1750,
@@ -55,24 +77,32 @@
 			'Parulon': {
                 'Informacja': 'Środek na duszności.',
                 'Kwota': 1500,
-            },
-			'Jodyna': {
-                'Informacja': 'Środek dezynfekujący.',
-                'Kwota': 1250,
+			},
+			'Paracetamol': {
+				'Informacja': 'Środek przeciwgorączkowy.',
+				'Kwota': 1250,
 			},
 			'Ibuprofen': {
                 'Informacja': 'Jedna z słabszych substancji przeciw bólowych.',
 				'Kwota': 1250,
+			},
+			'Żel przeciwświądowy': {
+				'Informacja': 'Środek stosowany na ukąszenia owadów, pokrzywy, choroby skóry.',
+				'Kwota': 1250,
+			},
+			'Jodyna': {
+                'Informacja': 'Środek dezynfekujący.',
+				'Kwota': 750,
+			},
+			'Sól Fizjologiczna': {
+				'Informacja': '. Sól fizjologiczna na zatoki, katar i kaszel - roztwór chlorku sodu idealnie sprawdza się jako preparat do inhalacji, zwłaszcza przy infekcjach górnych dróg oddechowych.',
+				'Kwota': 750,
 			},
 		},
         'Kroplówki': {
 			'Kroplówka z Krwią': {
                 'Informacja': 'Kroplówka z danym rodzajem krwi',
                 'Kwota': 3000,
-            },
-            'Kroplówka z Narkozą': {
-                'Informacja': 'Kroplówka z płynem usypiającym, odurzającym, znieczulającym.',
-                'Kwota': 2000,
             },
 			'Kroplówka z Witaminami': {
                 'Informacja': 'Skład: A, B1, B2, B5, B6, B12, C, D3, E, kwas foliowy, biotyna, Witamina PP',
@@ -99,22 +129,35 @@
 			'Pobranie krwi': {
                 'Informacja': 'Pobieramy krew, gdy chcemy dowiedzieć się jaką grupę krwi ma pacjent. // Ewentualnie sprawdzenie chorób.',
                 'Kwota': 1250,
-            },
-			'Tomografia Komputerowa': {
+			},
+			'Badanie Moczu': {
+				'Informacja': 'Badanie moczu może pomóc w rozpoznaniu choroby nerek oraz dróg moczowych. Obecność glukozy, mocznika, białka czy stwierdzone ketony w moczu, wskazują kłopoty.',
+				'Kwota': 1000,
+			},
+			'Tomografia Komputerowa [TK]': {
                 'Informacja': 'Sprawdzamy czy w ciele jest kula itp.',
                 'Kwota': 7500,
             },
-			'Rentgen': {
+			'Rentgen [RTG]': {
                 'Informacja': 'Sprawdzamy czy doszło do złamania.',
                 'Kwota': 7500,
 			},
-			'Elektrokardiografia': {
+			'Elektrokardiografia [EKG]': {
 				'Informacja': 'Rozpoznajemy choroby serca.',
 				'Kwota': 7500,
 			},
-			'Ultrasonografia': {
+			'Ultrasonografia [USG]': {
 				'Informacja': 'Pozwala na uzyskanie obrazu przekroju badanego obiektu.',
 				'Kwota': 7500,
+			},
+		},	'Inne': {
+			'Bezpodstawne Wezwanie EMS': {
+				'Informacja': 'Chyba wiadomo :D.',
+				'Kwota': 10000
+			},
+			'Łamanie Regulaminu Szpitala': {
+				'Informacja': 'TAKIE RZECZY WYSTAWIAJĄ TYLKO OSOBY Z ZARZĄDU!',
+				'Kwota': 10000,
 			},
 		}
     };
