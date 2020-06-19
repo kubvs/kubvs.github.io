@@ -68,6 +68,7 @@ body {
 	text-align: center;
 	margin-top: 10px;
 }
+
 #cat6 {
 	border-top: 4px solid #00d0ff;
 	border-radius: 4px;
@@ -79,6 +80,16 @@ body {
 }
 
 #cat7 {
+	border-top: 4px solid #00d0ff;
+	border-radius: 4px;
+	background-color: rgba(233, 233, 233, 0.65);
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#cat8 {
 	border-top: 4px solid #00d0ff;
 	border-radius: 4px;
 	background-color: rgba(233, 233, 233, 0.65);

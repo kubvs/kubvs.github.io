@@ -1,7 +1,11 @@
 	$(document).ready(function() {
 	// obiekt z całym taryfikatorem
 	var obj = {
-		'Podstawowe': {
+		'Standardowe': {
+			'Apteczka': {
+				'Informacja': 'Pomoc we wstaniu (F6 - Ożyw Gracza)',
+				'Kwota': 500,
+			},
 			'Opatrunek': {
 				'Informacja': 'Ochrania ranę lub skaleczenie przed środowiskiem zewnętrznym i zapobiegająca dalszemu zakażeniu.',
 				'Kwota': 500,
@@ -22,15 +26,9 @@
 				'Informacja': 'Stabilizuje szyje. W razie podejrzenia urazu, stosowany jest jako podstawowy środek w celu zapobieżenia dalszym urazom kręgosłupa szyjnego i rdzenia kręgowego.',
 				'Kwota': 1000,
 			},
-		},
-		'Operacje': {
-			'Operacja Prosta': {
-				'Informacja': 'Np. operacja złamanej nogi, wyciągnięcie kuli z rany postrzałowej w bark.',
-				'Kwota': 5000,
-			},
-			'Operacja Złożona': {
-				'Informacja': 'Np. operacja wycięcia guza mózgu, wyciągniecie pięciu kul z rany.',
-				'Kwota': 10000,
+			'Szyna': {
+				'Informacja': 'Urządzenie służące do wsparcia lub unieruchomienia kończyny lub kręgosłupa.',
+				'Kwota': 1000,
 			},
 		},
 		'Leki': {
@@ -115,50 +113,74 @@
         }, 'Zastrzyki': {
 			'Zastrzyk przeciw krzepowy': {
                 'Informacja': 'Podawany przy złamaniach.',
-                'Kwota': 7500,
+                'Kwota': 5000,
             },
 			'Zastrzyk przeciw tężcowy': {
                 'Informacja': 'Podajemy przy ranach postrzałowych, uszkodzeniach ciała poprzez metalowy przedmiot.',
-                'Kwota': 7500,
+                'Kwota': 5000,
             },	
 			'Zastrzyk przeciw wściekliźnie': {
                 'Informacja': 'Podajemy przy ugryzieniach.',
-                'Kwota': 7500,
+                'Kwota': 5000,
             },
 		}, 'Badania': {
-			'Pobranie krwi': {
+			'Badanie / Pobranie krwi': {
                 'Informacja': 'Pobieramy krew, gdy chcemy dowiedzieć się jaką grupę krwi ma pacjent. // Ewentualnie sprawdzenie chorób.',
-                'Kwota': 1250,
+                'Kwota': 2000,
 			},
 			'Badanie Moczu': {
 				'Informacja': 'Badanie moczu może pomóc w rozpoznaniu choroby nerek oraz dróg moczowych. Obecność glukozy, mocznika, białka czy stwierdzone ketony w moczu, wskazują kłopoty.',
-				'Kwota': 1000,
+				'Kwota': 750,
 			},
-			'Tomografia Komputerowa [TK]': {
+			'TK': {
                 'Informacja': 'Sprawdzamy czy w ciele jest kula itp.',
-                'Kwota': 7500,
+                'Kwota': 8000,
             },
-			'Rentgen [RTG]': {
+			'RTG': {
                 'Informacja': 'Sprawdzamy czy doszło do złamania.',
-                'Kwota': 7500,
+                'Kwota': 8000,
 			},
-			'Elektrokardiografia [EKG]': {
+			'EKG': {
 				'Informacja': 'Rozpoznajemy choroby serca.',
-				'Kwota': 7500,
+				'Kwota': 8000,
 			},
-			'Ultrasonografia [USG]': {
+			'USG': {
 				'Informacja': 'Pozwala na uzyskanie obrazu przekroju badanego obiektu.',
-				'Kwota': 7500,
+				'Kwota': 8000,
+			},
+		},
+		'Operacje': {
+			'Operacja Prosta': {
+				'Informacja': '',
+				'Kwota': 5000,
+			},
+			'Operacja Złożona': {
+				'Informacja': '',
+				'Kwota': 10000,
 			},
 		},	'Inne': {
 			'Bezpodstawne Wezwanie EMS': {
-				'Informacja': 'Chyba wiadomo :D.',
+				'Informacja': '',
 				'Kwota': 10000
 			},
 			'Łamanie Regulaminu Szpitala': {
-				'Informacja': 'TAKIE RZECZY WYSTAWIAJĄ TYLKO OSOBY Z ZARZĄDU!',
+				'Informacja': '',
 				'Kwota': 10000,
 			},
+		},
+		'Dojazdy': {
+			'Dojazd Karetki': {
+				'Informacja': '',
+				'Kwota': 750,
+			},
+			'Dojazd Śmigłowca': {
+				'Informacja': '',
+				'Kwota': 1000,
+			},
+			'Dojazd Łodzi': {
+				'Informacja': '',
+				'Kwota': 1250,
+			}
 		}
     };
 	
